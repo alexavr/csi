@@ -1,0 +1,16 @@
+&settings 
+ iswrf = .TRUE.
+ regional = .TRUE.
+ smooth = .TRUE.
+ smooth_sigma = 3
+ smooth_truncate = 1
+ output_height = .TRUE.
+ output_pressure = .TRUE.
+ debug = .TRUE. ! Print some debug info
+ debug_output = .FALSE. ! Lots of output [takes much longer to complete]
+/
+&criteria
+ q_criterion = .TRUE.
+ delta_criterion = .TRUE.
+ l2_criterion = .TRUE.
+/
