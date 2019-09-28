@@ -1,3 +1,7 @@
+# Description
+Currently computes eulerian criteria only: $Q$,$\Delta$ and $\lambda2$.
+Working on lagrangian approach.
+
 # Tech notes
 
 ##### How to add new criterion
